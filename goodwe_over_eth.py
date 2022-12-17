@@ -8,10 +8,21 @@
 # Generated: 17/12/2022 18:50:21
 ###################################################
 
+import asyncio
+from datetime import datetime
 import sys
+import time
+
+import goodwe
+import requests
 
 def main():
-    print("Hello world!")
+    while(True):
+        try:
+            print("a")
+        except Exception as e:
+            print(e)
+        time.sleep(1)
 
 while(True):
     try:
